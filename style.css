@@ -1,4 +1,10 @@
-h1 p{
+h1 {
+    text-align: center;
+    text-transform: uppercase;
     color: white;
     background-color: black;
+}
+p{
+    text-transform: capitalize;
+    background-color: brown;
 }
