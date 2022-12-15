@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My APP</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <script src="./assets/js/bootstrap.bundle.min.js" defer></script>
 </head>
 <body>
-    <style>
+    <!-- <style>
         h1 {
     text-align: center;
     text-transform: uppercase;
@@ -18,8 +19,27 @@ p{
     text-transform: capitalize;
     background-color: brown;
 }
-    </style>
+    </style> -->
+    <header class="navbar navrbar-expand-lg">
+        <div class="container">
+            <a href="" class="navbar-brand">
+                <img src="./assets/images/logo_uvs.png" alt="LOGO">
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="seck">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="seck" >
+                <ul class="ms-auto navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">A propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Actualite</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <h1>Hello World</h1>
+
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
          <br>Ipsam rem consequuntur alias. Temporibus rem molestias recusandae unde.
          <br>Dolorem, distinctio! Accusantium esse quod ea praesentium eum delectus veritatis perferendis quidem fugiat.</p>
